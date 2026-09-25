@@ -1,8 +1,12 @@
+import LoginForm from "./login-form";
+
 export default function LoginPage() {
     return (
         <div>
-            <h1>Login</h1>
-            <p>Đây là trang đăng nhập</p>
+            <h1 className="text-xl font-bold text-center">Đăng nhập</h1>
+            <div className="flex justify-center">
+                <LoginForm />
+            </div>
         </div>
     )
 }
